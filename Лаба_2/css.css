@@ -1,0 +1,106 @@
+#block_1{
+	background-color: #ffbafd;
+	float: left;
+	height: 80%;
+	width: 25%;
+}
+
+#block_2{
+	background-color: #a8bff7;
+	float: right;
+	height: 10%;
+	width: 75%;
+}
+#block_2left{
+	width: 75%;
+	border:0px;
+	padding-top: 0px;
+	float:left;
+}
+#block_3{
+	background-color: #e9f2d0;
+	float: left;
+	height: 5%;
+	width: 50%;
+}
+
+#block_4{
+	background-color: #e9f2d0;
+	float: right;
+	height: 70%;
+	width: 25%;
+}
+
+#block_5{
+	background-color: #fff;
+	float: left;
+	height: 65%;
+	width: 50%;
+}
+
+#block_6{
+	background-color: #a8bff7;
+	float: left;
+	height: 20%;
+	width: 100%;
+}
+#bloock_6text{
+
+}
+#image1{
+	width: 50%;	
+	float: right;
+}
+
+#image2{
+	width: 70%;	
+	float: left;
+}
+
+#First_Button{
+	border-radius: 10px;
+	background-color: #fff;
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	height: 80px;
+	width: 250px;
+}
+
+#Second_Button{
+	border-radius: 10px;
+	background-color: #fff;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 80px;
+	width: 250px;
+}
+
+.Text_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+textarea{
+	height:30%;
+	width: 100%;
+	resize: none;
+	background: none;
+	border:none;
+}
+div{
+	box-sizing: border-box;
+    font-size: 19px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+input{
+	width: 8%;
+	border-width: 1px;
+}
+
+body{
+	height:1500px;
+}
