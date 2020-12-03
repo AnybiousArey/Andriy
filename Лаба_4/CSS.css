@@ -1,0 +1,158 @@
+body{
+	margin: 10px;
+}
+
+p{
+	font-size: 20px;
+	margin-block-start: auto;
+}
+
+#block4 input{
+	  width: 70%;
+	  padding: 12px 2px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  text-align: center;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+}
+
+button{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: blue;
+	font-weight: normal;
+}
+a:hover{
+	text-decoration: underline;
+}
+div{
+	box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+textarea{
+	width: 100%;
+	resize: none;
+	background: none;
+}
+#block1{
+	background-color: #ffbafd;
+	float: left;
+	height: 1200px;
+	width: 25%;
+}
+#block3 textarea{
+	height:100%;
+}
+#block2{
+	background-color: #a8bff7;
+	float: right;
+	height: 300px;
+	width: 75%;
+}
+
+#block2left{
+	width: 70%;
+	border:0px;
+	padding-top: 0px;
+	float:left;
+}
+#block3{
+	background-color: #e9f2d0;
+	float: left;
+	height: 100px;
+	width: 50%;
+}
+
+#block4{
+	background-color: #e9f2d0;
+	float: right;
+	height: 900px;
+	width: 25%;
+}
+
+#block4 textarea{
+	height: 250px;
+}
+
+#block5{
+	background-color: #fff;
+	float: left;
+	height: 800px;
+	width: 50%;
+}
+
+#block5 input{
+	width: 80%;
+	padding: 12px 2px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#block6{
+	position: relative;
+	background-color: #a8bff7;
+	float: left;
+	vertical-align: middle;
+	height: 300px;
+	width: 100%;
+}
+
+#image1{
+	width: 130px;
+	float: right;
+	margin-left: 10px;
+}
+#image2{
+	width: 20%;
+	float: left;
+	margin-right: 10px;
+}
+#x{
+	float: right;
+	border-radius: 5px;
+	margin-right: 50px;
+	margin-top: 100px;
+	background-color: white;
+	height: 100px;
+	width: 300px;
+}
+
+#y{
+	border-radius: 5px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+	background-color: white;
+	height: 100px;
+	width: 300px;
+}
+
+#block6right{
+	border: 0;
+	float: right;
+	width: 70%;
+	margin-top: 0px;
+
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
